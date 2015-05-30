@@ -5,9 +5,43 @@
               android:layout_height="match_parent">
 
     <TextView
+            android:id="@+id/section_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="About"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="About" android:textSize="30dp"/>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray"  />
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="300dp"
+            android:text="Visa Bulletin - A tiny tool for tracing your green card waiting time.\n\nThis is also my first Android app."
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp"
             android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/icon_img"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/git_repo"
+            android:paddingTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:id="@+id/git_repo" android:layout_gravity="center_horizontal"/>
+
+
 </LinearLayout>

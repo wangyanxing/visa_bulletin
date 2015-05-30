@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Visa_Bulletin.iml" filepath="$PROJECT_DIR$/Visa_Bulletin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visa_bulletin.iml" filepath="$PROJECT_DIR$/visa_bulletin.iml" />
     </modules>
   </component>
 </project>

@@ -8,7 +8,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_example"></string>
+    <string name="action_example"> </string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="git_repo"><a href="http://github.com/wangyanxing/visa_bulletin">Github Repo</a></string>
 </resources>
